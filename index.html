@@ -420,6 +420,17 @@
     main { padding: 30px 40px 70px; }
   }
 
+  .links-btn {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 9px 16px;
+    background: var(--blue-dark);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9em;
+  }
   .footer-note {
     text-align: center;
     color: var(--ink-soft);
@@ -655,6 +666,17 @@
         </div>
       </section>
 
+      <section class="page" data-page="links">
+        <div class="page-kicker">Links</div>
+        <h2 class="page-title">Pajamastan Links</h2>
+        <p class="page-intro">Official tools from the national workshop.</p>
+        <div class="card">
+          <h3>Badge Tool</h3>
+          <p>Design your own Pajamastan badge, the same way the official cast aluminum badge was drawn up.</p>
+          <a class="links-btn" href="https://pajamastan-badge-tool.vercel.app" target="_blank" rel="noopener">Make a Badge</a>
+        </div>
+      </section>
+
       <section class="page" data-page="atlas">
         <div class="page-kicker">Beyond the Border</div>
         <h2 class="page-title">World Atlas of Kindred Micronations</h2>
@@ -792,6 +814,9 @@
     { label: "Foreign Relations", pages: [
       { id: "alliances", label: "Alliances" },
       { id: "atlas",     label: "World Atlas" }
+    ]},
+    { label: "Links", pages: [
+      { id: "links",     label: "Links" }
     ]}
   ];
 
